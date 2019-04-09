@@ -20,4 +20,6 @@ try {
         }
     }
 
+} catch (buildError) {
+    throw buildError
 }
