@@ -5,7 +5,7 @@ env.PATH="${env.NODEJS_HOME};${env.PATH}"
 sh 'npm --version'
 
 try {
-    node('build') {
+    node {
 
         currentBuild.result = 'SUCCESS'
 
